@@ -10,7 +10,7 @@
 
 **Beijing Institute of Technology (BIT)** — 985 / 211 / Double First-Class University
 B.E. in Electronic Information Engineering (2023–2027)
-Coursework: Signals & Systems, Digital Signal Processing, Embedded Systems, Computer Vision, Deep Learning
+Coursework: Signals & Systems, Digital Signal Processing, Radar Signal Processing, Deep Learning, Large Language Models
 
 ### 🛠️ Tech Stack
 
@@ -60,7 +60,7 @@ zhangdeyou_2023@qq.com
 
 **北京理工大学** — 985 / 211 / 双一流
 电子信息工程 本科（2023–2027）
-主修课程：信号与系统、数字信号处理、嵌入式系统、计算机视觉、深度学习
+主修课程：信号与系统、数字信号处理、雷达信号处理、深度学习、大语言模型
 
 ### 🛠️ 技术栈
 
