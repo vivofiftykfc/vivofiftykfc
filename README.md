@@ -1,6 +1,6 @@
 ## Hi there 👋 I'm Hengwei Zhang
 
-**Embedded Systems · FPGA · AI · Full-Stack Developer**
+**Embedded Systems · Hardware Design · AI · Full-Stack Developer**
 
 📍 Beijing, China
 
@@ -53,7 +53,7 @@ zhangdeyou_2023@qq.com
 
 ### 👋 你好，我是张恒玮
 
-**嵌入式系统 · FPGA · AI · 全栈开发者**
+**嵌入式系统 · 硬件设计 · AI · 全栈开发者**
 
 📍 北京，中国
 
