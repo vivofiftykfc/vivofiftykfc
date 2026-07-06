@@ -19,8 +19,8 @@ Coursework: Signals & Systems, Digital Signal Processing, Radar Signal Processin
 | Category | Skills |
 |----------|--------|
 | **Languages** | Python, C/C++, Verilog |
-| **Embedded** | ARM Cortex-A (bare-metal), Feiteng Pi, ESP32, Raspberry Pi, LVGL, Linux Drivers |
-| **AI / ML** | PyTorch, Object Detection (NanoDet), Multi-modal Perception, LLM Applications (RAG, LangChain) |
+| **Embedded** | ARM (bare-metal), Feiteng Pi, ESP32, Raspberry Pi, LVGL, Linux Drivers |
+| **AI / ML** | PyTorch, Object Detection, Multi-modal Perception, LLM Applications (RAG, LangChain) |
 | **FPGA** | Verilog/VHDL, Vivado, Quartus Prime, ModelSim, AXI-Stream, Artix-7, Cyclone IV |
 | **Full-Stack** | React, FastAPI, Tailwind CSS, Vite |
 | **Tools** | Git, cross-compilation toolchains, Claude Code |
@@ -72,8 +72,8 @@ zhangdeyou_2023@qq.com
 | 类别 | 技能 |
 |------|------|
 | **编程语言** | Python、C/C++、Verilog |
-| **嵌入式** | ARM Cortex-A 裸机开发、飞腾平台、ESP32、树莓派、LVGL 图形库、Linux 驱动 |
-| **AI / 机器学习** | PyTorch、目标检测 (NanoDet)、多模态感知、大语言模型应用 (RAG、LangChain) |
+| **嵌入式** | ARM 裸机开发、飞腾平台、ESP32、树莓派、LVGL 图形库、Linux 驱动 |
+| **AI / 机器学习** | PyTorch、目标检测、多模态感知、大语言模型应用 (RAG、LangChain) |
 | **FPGA** | Verilog/VHDL、Vivado、Quartus Prime、ModelSim、AXI-Stream、Artix-7、Cyclone IV |
 | **全栈开发** | React、FastAPI、Tailwind CSS、Vite |
 | **工具链** | Git、交叉编译工具链、Claude Code |
