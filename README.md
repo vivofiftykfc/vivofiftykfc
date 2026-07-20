@@ -1,101 +1,98 @@
-## Hi there 👋 I'm Hengwei Zhang
+<div align="center">
+  <img src="./assets/perception-to-silicon.webp" width="100%" alt="From multimodal perception to FPGA silicon" />
 
-**Embedded Systems · Hardware Design · AI · Full-Stack Developer**
+  <h1>张恒玮 · Hengwei Zhang</h1>
 
-📍 Beijing, China
+  <p><strong>Electronic Information Engineering @ Beijing Institute of Technology</strong></p>
+  <p>多模态感知 · Embedded AI · FPGA · AI-native Products</p>
+
+  <p>
+    <a href="https://vivofiftykfc.github.io/"><img src="https://img.shields.io/badge/Blog-vivofiftykfc.github.io-0b2239?style=flat-square" alt="Personal blog" /></a>
+    <a href="mailto:zhangdeyou_2023@qq.com"><img src="https://img.shields.io/badge/Email-zhangdeyou__2023%40qq.com-0b2239?style=flat-square" alt="Email" /></a>
+    <img src="https://img.shields.io/badge/Beijing-China-0b2239?style=flat-square" alt="Beijing, China" />
+  </p>
+</div>
+
+## 👋 关于我 / About
+
+我在北京理工大学学习电子信息工程，关注如何把感知算法真正放进系统里：从视觉、红外和毫米波雷达获取现实信号，在嵌入式平台或 FPGA 上完成处理，再把结果组织成能被人使用的 AI 产品。
+
+I enjoy building across the whole path:
+
+<p align="center"><code>Sensing → Edge Computing → Decision → Interaction</code></p>
+
+## 🧭 技术坐标 / Focus
+
+| 方向 | 我在做什么 |
+|---|---|
+| **多模态感知** | PyTorch、目标检测、红外热成像、毫米波雷达、语音与视觉分析 |
+| **嵌入式 AI** | ARM Cortex-A、飞腾平台、ESP32、树莓派、Linux 与交叉编译 |
+| **FPGA / 数字系统** | Verilog、Vivado / Quartus Prime、VGA 图形、AXI-Stream |
+| **AI 产品工程** | FastAPI、React / Vite、LLM / RAG、实时多模态管线 |
+
+## 🚀 代表项目 / Selected Work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vivofiftykfc/cicc_9">火灾救援无人机</a></h3>
+      <p><strong>视觉与感知模块负责人</strong></p>
+      <p>打通视觉、红外与通信数据流；将 NanoDet 经 ncnn 部署到飞腾平台，并基于 MLX90640 设计火灾预警与火源定位算法。</p>
+      <p>🏆 集创赛飞腾赛道 · 华北赛区二等奖</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vivofiftykfc/qwen_rag">独居老人健康监测</a></h3>
+      <p><strong>核心开发成员</strong></p>
+      <p>独立完成毫米波雷达感知模块，设计雷达与视觉融合判据，并用大语言模型把多传感器结果组织成自然语言决策链。</p>
+      <p>📜 北京市市级创新项目 · 已授权发明专利</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vivofiftykfc/judgebooth">JudgeBooth</a></h3>
+      <p><strong>后端与 AI 管线开发</strong></p>
+      <p>基于 FastAPI / SSE 编排语音识别、面部分析、LLM 评审、语音合成和 AI 生图，完成从路演输入到评审报告与纪念合影的实时链路。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vivofiftykfc/sound-walker">Sound-Walker</a></h3>
+      <p><strong>嵌入式离线声纹识别</strong></p>
+      <p>在 ARM Linux 平台比较 MFCC + DTW 纯 C 方案与 CAM++ / sherpa-onnx 神经网络方案，探索端侧识别的精度与资源权衡。</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vivofiftykfc/StellarVanguard-FPGA">StellarVanguard-FPGA</a></h3>
+      <p><strong>纯硬件 VGA 射击游戏</strong></p>
+      <p>在 Basys3 / Artix-7 上使用 Verilog 实现 9 层渲染管线、敌机波次、星空与 HUD，输出 640×480 @ 60 Hz VGA 画面。</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/vivofiftykfc/wlan-0714-arg">WLAN-0714 ARG</a></h3>
+      <p><strong>可完整通关的中文互联网 ARG</strong></p>
+      <p>围绕“已注销账号仍在夜间登录”构建真相时间线、证据关系、解谜门槛与持久化状态，把叙事设计落实为可玩的 Web 体验。</p>
+    </td>
+  </tr>
+</table>
+
+## 🎓 教育与荣誉 / Education & Recognition
+
+- **北京理工大学** · 电子信息工程本科（2023–2027）
+- **全国大学生集成电路创新创业大赛** · 飞腾赛道华北赛区二等奖
+- **美国大学生数学建模竞赛 MCM/ICM** · Honorable Mention
+- **北京市市级创新项目**结项 · 授权发明专利一项
+
+<details>
+  <summary><strong>更多项目与技术实践</strong></summary>
+  <br />
+
+- [fpga-busicdc-2025](https://github.com/vivofiftykfc/fpga-busicdc-2025) — AXI-Stream 网络协议解析与 8 位单总线处理器
+- [ARG Toolbox](https://github.com/vivofiftykfc/arg-toolbox) — 将故事真相、角色知识与玩家知识编译成可验证的 ARG Story IR
+- [Contemplation Site](https://github.com/vivofiftykfc/contemplation-site) — 一键生成沉浸式交互阅读网站
+- [个人博客](https://vivofiftykfc.github.io/) — 学习笔记、技术体系与关于现实问题的长期思考
+
+</details>
 
 ---
 
-### 🎓 Education
-
-**Beijing Institute of Technology (BIT)** — 985 / 211 / Double First-Class University
-
-B.E. in Electronic Information Engineering (2023–2027)
-
-Coursework: Signals & Systems, Digital Signal Processing, Radar Signal Processing, Deep Learning, Large Language Models
-
-### 🛠️ Tech Stack
-
-| Category | Skills |
-|----------|--------|
-| **Languages** | Python, C/C++, Verilog |
-| **Embedded** | ARM (bare-metal), Feiteng Pi, ESP32, Raspberry Pi, LVGL, Linux Drivers |
-| **AI / ML** | PyTorch, Object Detection, Multi-modal Perception, LLM Applications (RAG, LangChain) |
-| **FPGA** | Verilog/VHDL, Vivado, Quartus Prime, ModelSim, AXI-Stream, Artix-7, Cyclone IV |
-| **Full-Stack** | React, FastAPI, Tailwind CSS, Vite |
-| **Tools** | Git, cross-compilation toolchains, Claude Code |
-
-### 🔭 Featured Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| [**JudgeBooth**](https://github.com/vivofiftykfc/judgebooth) | AI-powered hackathon review booth — real-time ASR, face analysis, LLM judging (DeepSeek), AI-generated souvenir photos | React + FastAPI + MediaPipe + DeepSeek |
-| [**StellarVanguard-FPGA**](https://github.com/vivofiftykfc/StellarVanguard-FPGA) | Retro VGA shooter on Basys3 (Artix-7). Pure Verilog, 9-layer pipeline, 60Hz VGA | Verilog + Vivado |
-| [**Sound-Walker**](https://github.com/vivofiftykfc/sound-walker) | Offline voiceprint recognition on ARM Linux — MFCC+DTW vs CAM++ neural network | C + sherpa-onnx |
-| [**cicc_9**](https://github.com/vivofiftykfc/cicc_9) | 2025 National IC Innovation Competition, North China 2nd Prize — drone assistant: IR thermal imaging + object detection + OpenAMP | C++ + OpenAMP |
-| [**Qwen-RAG**](https://github.com/vivofiftykfc/qwen_rag) | AI decision module for elderly home health monitoring. Multi-modal (radar + vision) fall detection with LLM reasoning | PyTorch + LangChain + Qwen |
-| [**fpga-busicdc-2025**](https://github.com/vivofiftykfc/fpga-busicdc-2025) | 2025 Beijing IC Design Competition — AXI-Stream network protocol parser + 8-bit single-bus processor | Verilog + Quartus Prime |
-| [**Contemplation Site**](https://github.com/vivofiftykfc/contemplation-site) | One-click meditations-style interactive reading website generator | React + Vite + Tailwind CSS |
-
-### 🏆 Awards
-
-- **National IC Innovation Competition (集创赛)** — Feiteng Track, North China 2nd Prize
-- **MCM/ICM** — Honorable Mention
-- **Beijing Municipal Innovation Project** — Completed with 1 authorized patent (elderly health monitoring system)
-
-### 📫 Contact
-
-zhangdeyou_2023@qq.com
-
----
-
-## 🇨🇳 中文版
-
-### 👋 你好，我是张恒玮
-
-**嵌入式系统 · 硬件设计 · AI · 全栈开发者**
-
-📍 北京，中国
-
----
-
-### 🎓 教育背景
-
-**北京理工大学** — 985 / 211 / 双一流
-
-电子信息工程 本科（2023–2027）
-
-主修课程：信号与系统、数字信号处理、雷达信号处理、深度学习、大语言模型
-
-### 🛠️ 技术栈
-
-| 类别 | 技能 |
-|------|------|
-| **编程语言** | Python、C/C++、Verilog |
-| **嵌入式** | ARM 裸机开发、飞腾平台、ESP32、树莓派、LVGL 图形库、Linux 驱动 |
-| **AI / 机器学习** | PyTorch、目标检测、多模态感知、大语言模型应用 (RAG、LangChain) |
-| **FPGA** | Verilog/VHDL、Vivado、Quartus Prime、ModelSim、AXI-Stream、Artix-7、Cyclone IV |
-| **全栈开发** | React、FastAPI、Tailwind CSS、Vite |
-| **工具链** | Git、交叉编译工具链、Claude Code |
-
-### 🔭 精选项目
-
-| 项目 | 描述 | 技术 |
-|------|------|------|
-| [**JudgeBooth**](https://github.com/vivofiftykfc/judgebooth) | AI 马斯克评审亭 — 实时语音识别 + 面部表情分析 + DeepSeek LLM 评审 + AI 换头合影 | React + FastAPI + MediaPipe + DeepSeek |
-| [**StellarVanguard-FPGA**](https://github.com/vivofiftykfc/StellarVanguard-FPGA) | Basys3 上的 VGA 飞机射击游戏，纯硬件逻辑实现 9 层渲染管线，60Hz 输出 | Verilog + Vivado |
-| [**Sound-Walker**](https://github.com/vivofiftykfc/sound-walker) | ARM Linux 嵌入式离线声纹锁 — MFCC+DTW（纯 C）vs CAM++ 神经网络双路线对比 | C + sherpa-onnx |
-| [**cicc_9**](https://github.com/vivofiftykfc/cicc_9) | 集创赛 2025 华北赛区二等奖 — 飞腾派无人机辅助系统：红外热成像 + NanoDet 目标检测 + OpenAMP 双核超声避障 | C++ + OpenAMP |
-| [**Qwen-RAG**](https://github.com/vivofiftykfc/qwen_rag) | 独居老人智能家居健康监测系统 — 毫米波雷达 + 视觉多模态融合跌倒检测，LLM 自然语言决策反馈，已授权发明专利 | PyTorch + LangChain + Qwen |
-| [**fpga-busicdc-2025**](https://github.com/vivofiftykfc/fpga-busicdc-2025) | 2025 北京市大学生集成电路设计竞赛 — AXI-Stream 网络协议解析电路 + 8 位单总线处理器 | Verilog + Quartus Prime |
-| [**Contemplation Site**](https://github.com/vivofiftykfc/contemplation-site) | 一键生成"沉思录"风格交互式阅读网站 | React + Vite + Tailwind CSS |
-
-### 🏆 荣誉与竞赛
-
-- **全国大学生集成电路创新创业大赛**（集创赛）— 飞腾赛道 · 华北赛区二等奖
-- **美国大学生数学建模竞赛 (MCM/ICM)** — H 奖（Honorable Mention）
-- **北京市市级创新项目** 结项 · 已授权 **发明专利** 一项（独居老人智能家居健康云监测系统）
-
-### 📫 联系方式
-
-zhangdeyou_2023@qq.com
+<p align="center">
+  <em>把现实问题压缩成模型，再把模型送回现实里检验。</em>
+</p>
