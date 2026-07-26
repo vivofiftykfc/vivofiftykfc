@@ -17,9 +17,9 @@
 
 我在北京理工大学学习电子信息工程，关注如何把感知算法真正放进系统里：从视觉、红外和毫米波雷达获取现实信号，在嵌入式平台或 FPGA 上完成处理，再把结果组织成能被人使用的 AI 产品。
 
-I enjoy building across the whole path:
+我做过的项目，大多沿着这样一条路径展开：
 
-<p align="center"><code>Sensing → Edge Computing → Decision → Interaction</code></p>
+<p align="center"><code>感知输入 → 边缘计算 → 判断与决策 → 交互呈现</code></p>
 
 ## 🧭 技术坐标 / Focus
 
@@ -96,3 +96,5 @@ I enjoy building across the whole path:
 <p align="center">
   <em>把现实问题压缩成模型，再把模型送回现实里检验。</em>
 </p>
+
+<img src="./assets/signal-footer.webp" width="100%" alt="" />
